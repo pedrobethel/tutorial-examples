@@ -42,5 +42,8 @@ class Employee {
    }
 
    // Add a method to the Employee class (what method you think an employee would need?), and show to TA for this week's tutorial mark
-
+   public void removeIncomeTax(double taxRate) {
+      double tax = salary * taxRate / 100;
+      salary -= tax;
+   }
 }
